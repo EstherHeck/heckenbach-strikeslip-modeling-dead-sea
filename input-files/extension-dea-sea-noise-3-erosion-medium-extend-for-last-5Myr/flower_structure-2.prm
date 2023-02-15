@@ -1,4 +1,4 @@
-set Additional shared libraries            = /home/projects/bbp00039/fastscape_build_files/additional_plugins/lith_plugin/release_10dev-fastscape-adpect-4-mai/libriftplugin_d10.so
+set Additional shared libraries            = ABS-PATH-TO-/libriftplugin_d10.so
 set Resume computation			= auto
 
 set Dimension                              = 3

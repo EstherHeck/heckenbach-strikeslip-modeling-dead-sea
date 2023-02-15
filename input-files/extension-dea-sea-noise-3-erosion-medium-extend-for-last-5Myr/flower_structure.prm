@@ -251,8 +251,8 @@ subsection Boundary velocity model
     set Variable names                = x,y,z,t
     set Function constants            = mm = 0.001, yr = 1, vx_full = 5, vy_full = 0
     set Function expression           = if(y>76e3, -vx_full*mm/yr/2, vx_full*mm/yr/2); \
-                                        if(y>76e3, 0, 0); \
-                                        0
+                                        if(y>75e3, 0.25*mm/yr, -0.25*mm/yr); \
+                                        0.25*4/3*mm/yr
   end
 end
 
